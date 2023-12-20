@@ -36,7 +36,7 @@ color: aqua;
 }
 
 .corner{
-    position:absolute;
+    position:fixed;
     top: 30px;
     right: 30px; 
     border: solid rgb(5, 5, 5) 3px; 
@@ -44,7 +44,14 @@ color: aqua;
     margin: auto; 
     margin-top: 5px; 
     margin-bottom: 5px;
+    width: 50%; /* Adjust the width as per your requirement */
+    max-width: 300px; /* Optional: Maximum width */
+    
 
+}
+.corner img {
+    width: 100%; /* Make the image take up 100% of the container's width */
+    height: auto; /* Adjust height automatically to maintain aspect ratio */
 }
 
 .border{
@@ -53,6 +60,7 @@ color: aqua;
     margin: auto; 
     margin-top: 5px; 
     margin-bottom: 5px; 
+    
 }
 
 .textlight{
@@ -60,3 +68,20 @@ color: aqua;
     font-weight: lighter;
     font-size: x-large;
 }
+.button-linkx {
+    display: inline-block;
+    padding: 10px 20px;
+    margin: 5px;
+    background-color: #462fb6;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.button-linkx:hover {
+    background-color: #0e0539; }
+
