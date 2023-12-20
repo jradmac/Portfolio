@@ -35,6 +35,10 @@ color: aqua;
     background-color: #1f486e;
 }
 
+.Fontcolor{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; color: brown; font-size: 100px;
+}
+
 .corner{
     position:fixed;
     top: 30px;
